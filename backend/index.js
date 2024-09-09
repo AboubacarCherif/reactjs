@@ -20,6 +20,7 @@ app.use(express.json()); // For parsing application/json
 // app.use(csrfProtection);
 
 // MongoDB connection string
+MONGO_URI = 
 const dbUri = process.env.MONGO_URI;
 
 mongoose
