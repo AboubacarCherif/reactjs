@@ -1,8 +1,11 @@
 name: React.js CI
 
 on:
+   branches: 
+      - master
   pull_request:
-    branches: "master"
+    branches: 
+      - master
 
 jobs:
   frontend-test:
